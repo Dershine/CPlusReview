@@ -25,5 +25,17 @@ int main()
    d = 10;    // 重新赋值
    c = d--;
    cout << "Line 7 - c 的值是 " << c << endl ;
+   
+   d = 10;    // 重新赋值
+   c = d--;
+   cout << "Line 7 - c 的值是 " << c << endl ;
+
+   d = 10;    // 重新赋值
+   c = ++d;
+   cout << "Line 8 - c 的值是 " << c << endl ;
+
+   d = 10;    // 重新赋值
+   c = --d;
+   cout << "Line 9 - c 的值是 " << c << endl ;
    return 0;
 }
